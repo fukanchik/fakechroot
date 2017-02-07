@@ -1,4 +1,4 @@
-AC_PREREQ(2.64)
+AC_PREREQ(2.63)
 AC_INIT([fakechroot], [2.20], [dexter@debian.org], [fakechroot], [https://github.com/dex4er/fakechroot])
 
 AC_CONFIG_SRCDIR([src/libfakechroot.c])
