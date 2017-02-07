@@ -7,6 +7,8 @@
 # License as published by the Free Software Foundation; either
 # version 2.1 of the License, or (at your option) any later version.
 
+AC_DEFINE([HAVE_STRUCT__FTSENT_FTS_NAME_TYPE_CHAR_P], [], [Description])
+
 # ACX_CHECK_FTS_NAME_TYPE([PROLOG])
 # ---------------------------------
 AC_DEFUN([ACX_CHECK_FTS_NAME_TYPE],
