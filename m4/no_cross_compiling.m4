@@ -7,6 +7,8 @@
 # License as published by the Free Software Foundation; either
 # version 2.1 of the License, or (at your option) any later version.
 
+m4_ifndef([AS_VAR_COPY], [m4_define([AS_VAR_COPY], [AS_LITERAL_IF([$1[]$2], [$1=$$2], [eval $1=$$2])])])
+
 # ASX_NO_CROSS_COMPILING(MACRO)
 # -----------------------------
 AC_DEFUN([ASX_NO_CROSS_COMPILING],
